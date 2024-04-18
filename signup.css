@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("feather.png");
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 110vh;
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    border: none;
+    opacity: 0.7;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+
+}
+
+body {
+    background-color: rgb(120, 226, 191);
+}
+
+label {
+    color: white;
+}
+
+.apply_box {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(236, 116, 116, 0.918);
+    background-image: url("feather.png");
+    background-attachment: fixed;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px 5px rgba(123, 123, 123, 0.535);
+    box-shadow: 10px -2px 73px 4px rgba(0, 0, 0, 0.75);
+
+
+
+}
+
+.title_small {
+    font-size: 22px;
+}
+
+.form_container {
+
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 40px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input,
+textarea:focus {
+    outline-color: red;
+}
+
+button {
+
+    border: none;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+
+
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 4px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.button_container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.11);
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.text_control {
+    /* display: grid; */
+    grid-column: 1/span 2;
+    /* /* width: 100%; */
+
+}
+
+textarea {
+    width: 100%;
+}
+
+@media (max-width:480px) {
+    .text_control {
+        grid-column: 1/span 1;
+    }
+}
+
+a p:hover {
+    color: red;
+}
+
+.signin {
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+textarea {
+    opacity: 0.7;
+}
+
+a {
+    color: rgb(42, 112, 170);
+    font-weight: 899;
+}
+
+a:hover {
+    color: white;
+}
+
+.signin p,
+a {
+    text-decoration: none;
+    font-size: 19px;
+}

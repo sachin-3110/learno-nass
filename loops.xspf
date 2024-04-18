@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///C:/Users/sachi/OneDrive/Desktop/c%20lang/videos/Loops%20in%20One%20Shot%20_%20C%20Programming%20_%20Lecture%203%20_%20Complete%20C%20Course.mp4</location>
+			<duration>14244141</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>bookmarks={name=Loops in One Shot _ C Programming _ Lecture 3 _ Complete C Course.mp4 #0,time=2462.760}</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+	</extension>
+</playlist>
