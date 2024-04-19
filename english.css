@@ -124,7 +124,7 @@ background-color: #cccccc;
   /* padding-top: -150px; */
 }
 .content{
-  background-image: url("BG.jpg");
+  background-image: url("assets/BG.jpg");
   background-size: cover;
   padding: 1%;
 }
