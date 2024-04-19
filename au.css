@@ -136,7 +136,7 @@
   .middlecontent{
     /* background-color: rgba(236, 189, 130, 0.521); */
     background-color: white;
- height: 60vh;
+ height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 5%;
